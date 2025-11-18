@@ -72,11 +72,10 @@ Todas las llamadas a la API requieren un token JWT válido en el header `Authori
 - Marcar tarea como completada
 - Ver detalles de tarea (modal o página separada)
 
-#### 5. Colaboración en Equipo (Bonus) 👥
+#### 5. Colaboración en Equipo (Requerido) 👥
 
 - Ver miembros del equipo
 - Ver tareas asignadas a cada miembro
-- Línea de tiempo de actividad por proyecto
 
 ## Documentación de la API
 
@@ -164,16 +163,7 @@ Authorization: Bearer <jwt_token>
 2. Validación de formularios
 3. Estados de carga y manejo de errores
 4. Mejoras de UI y diseño responsive
-5. (Bonus) Funcionalidades de equipo
-
-## Criterios de Evaluación
-
-| Criterio | Peso | Detalles |
-|----------|------|----------|
-| **Integración con API** | 30% | Uso correcto de todos los endpoints, manejo apropiado de errores, estados de carga |
-| **UI/UX y Responsividad** | 30% | Diseño limpio, navegación intuitiva, mobile-friendly, estilos consistentes |
-| **Calidad de Código** | 20% | Estructura de componentes, uso de TypeScript, componentes reutilizables, gestión de estado apropiada |
-| **Funcionalidad y Creatividad** | 20% | Todas las funcionalidades requeridas funcionan, características bonus, soluciones creativas |
+5. Funcionalidades de equipo
 
 ## Consejos para el Desarrollo
 
@@ -293,8 +283,6 @@ Esta hackathon está diseñada para evaluar su capacidad de:
 - Gestionar estados complejos en React
 - Trabajar bajo presión de tiempo
 - Aplicar buenas prácticas de código
-
-Recuerden que la calidad es más importante que la cantidad. Es mejor tener las funcionalidades principales bien implementadas que muchas funcionalidades a medias.
 
 ¡Estamos emocionados de ver lo que construirán! 🚀
 
